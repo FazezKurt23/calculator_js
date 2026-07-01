@@ -1,0 +1,41 @@
+body{
+    background-color: pink;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+}
+.wrapper{
+    background-color: rgb(127, 229, 255);
+    padding:30px;
+    border-radius:10px;
+    box-shadow: 0 4px 8px rgb(0,0,0,0.5);
+    text-align: center;
+}
+label{
+    display:block;
+    margin-bottom: 5px;
+    color:#555;
+}
+.put-in{
+    margin-bottom:15px;
+}
+input[type=text]{
+    width:calc(100%-22px);
+    border: 1px #ccc;
+    padding: 10px;
+    border-radius: 5px;
+}
+.btn{
+    display:flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+button{
+    padding:10px 10px;
+    border: none;
+    background-color: rgba(92, 12, 252, 0.507);
+    border-radius:5px;
+    font-size:16px;
+}
